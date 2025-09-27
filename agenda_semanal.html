@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda Semanal - Ajudaí</title>
+</head>
+<body>
+
+  <header>
+    <h1>Monte sua agenda semanal</h1>
+    <p>Preencha suas tarefas de cada dia da semana (Segunda a Sábado).</p>
+  </header>
+
+  <main>
+    <form action="final_semanal.php" method="post">
+
+      <!-- Repetir a tabela para cada dia -->
+      <section aria-labelledby="segunda">
+        <h2 id="segunda">Segunda-feira</h2>
+        <table>
+          <thead><tr><th>Horário</th><th>Tarefa</th></tr></thead>
+          <tbody>
+            <tr><td>08:00</td><td><input type="text" name="seg08"></td></tr>
+            <tr><td>09:00</td><td><input type="text" name="seg09"></td></tr>
+            <!-- Continue até 22:00 -->
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="terca">
+        <h2 id="terca">Terça-feira</h2>
+        <table>
+          <thead><tr><th>Horário</th><th>Tarefa</th></tr></thead>
+          <tbody>
+            <tr><td>08:00</td><td><input type="text" name="ter08"></td></tr>
+            <tr><td>09:00</td><td><input type="text" name="ter09"></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="quarta">
+        <h2 id="quarta">Quarta-feira</h2>
+        <table>
+          <thead><tr><th>Horário</th><th>Tarefa</th></tr></thead>
+          <tbody>
+            <tr><td>08:00</td><td><input type="text" name="qua08"></td></tr>
+            <tr><td>09:00</td><td><input type="text" name="qua09"></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="quinta">
+        <h2 id="quinta">Quinta-feira</h2>
+        <table>
+          <thead><tr><th>Horário</th><th>Tarefa</th></tr></thead>
+          <tbody>
+            <tr><td>08:00</td><td><input type="text" name="qui08"></td></tr>
+            <tr><td>09:00</td><td><input type="text" name="qui09"></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="sexta">
+        <h2 id="sexta">Sexta-feira</h2>
+        <table>
+          <thead><tr><th>Horário</th><th>Tarefa</th></tr></thead>
+          <tbody>
+            <tr><td>08:00</td><td><input type="text" name="sex08"></td></tr>
+            <tr><td>09:00</td><td><input type="text" name="sex09"></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="sabado">
+        <h2 id="sabado">Sábado</h2>
+        <table>
+          <thead><tr><th>Horário</th><th>Tarefa</th></tr></thead>
+          <tbody>
+            <tr><td>08:00</td><td><input type="text" name="sab08"></td></tr>
+            <tr><td>09:00</td><td><input type="text" name="sab09"></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <button type="submit">Salvar Agenda Semanal</button>
+
+    </form>
+  </main>
+
+</body>
+</html>
