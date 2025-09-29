@@ -24,8 +24,6 @@
   
     body {
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      display: flex;
-      flex-direction: column;
     }
   
     button {
@@ -39,6 +37,12 @@
       margin: 10px;
     }
   
+    .hero {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+
     button:hover {
       background-color: #FFE743;
       transition: 0.5s;
@@ -46,26 +50,31 @@
 
     footer {
       width: 100%;
-      height: 100px;
+      height: 100%;
       background-color:#FFF8DC;
-
+      padding-top: 30px;
     }
   
   </style>
+  </head>
+  
   <header>
 
     <h1>Bem-vindo ao Ajudaí!</h1>
 
   </header>
 
-  <div class="button">
+<section class="hero">
+
     <p>Aqui você cria sua própria agenda personalizada para cuidar da rotina do seu jeito.
       Planeje seus dias, organize suas tarefas e tenha mais tempo para você.</p>
-   <a href="login.html"><button type="button">Criar minha agenda</button></a>
-  </div>
-  <footer>
+   <a class="botão" href="login.html"><button type="button">Criar minha agenda</button></a>
 
-  </footer>
-</head>
+</section>
+
+<footer>
+
+</footer>
+
 </body>
 </html>
