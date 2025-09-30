@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Agenda Semanal - Ajudaí</title>
 </head>
 <body>
@@ -11,6 +11,24 @@
     <h1>Monte sua agenda semanal</h1>
     <p>Preencha suas tarefas de cada dia da semana (05:00 às 22:00).</p>
   </header>
+  <style>
+  
+  main {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 15px;
+  }
+
+
+  main section {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    background-color: #fbff2b;
+    padding: 10px;
+    border-radius: 6px;
+  }
+   </style>
 
   <main>
     <form action="final_semanal.php" method="post">
@@ -190,8 +208,12 @@
           </tbody>
         </table>
       </section>
+      <div style="text-align: center; margin-top: 20px;">
       <button type="submit">Salvar Agenda Semanal</button>
-      <a href="tipoagenda.html"><button type="button">Voltar</button></a>
+      <a href="tipoagenda.html">
+      <button type="button">Voltar</button>
+     </a>
+     </div>
     </form>
   </main>
 </body>
