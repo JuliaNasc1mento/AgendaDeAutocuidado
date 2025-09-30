@@ -5,9 +5,53 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+header {
+    color: #3B3928;
+    background-color: #FFF8DC;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+  
+  
+button {
+    background-color: #FFE788;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50px;
+    border: 1px solid #3B3928;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
+  
+.hero {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #FFE743;
+    transition: 0.5s;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background-color:#FFF8DC;
+    padding-top: 30px;
+}
+
 body {
-    background-color: #FFF3A6;   
-    color: #333333;              
+    background-image: url('auto.cuidados.fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333333;
     min-height: 100vh;
 }
 
@@ -100,11 +144,7 @@ section {
 }
 
 
-footer {
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-}
+
 
 main {
     overflow-x: auto;
