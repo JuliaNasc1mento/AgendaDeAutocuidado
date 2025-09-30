@@ -28,11 +28,46 @@ button {
     height: 50px;
     margin: 10px;
 }
-  
+
+.botoes-final {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.botoes-final button {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: bold;
+  border: none;
+  background-color: #F4D03F;
+  color: #333333;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
 .hero {
     height: 100%;
     width: 100%;
     text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.hero button {
+  font-size: 16px;
+  padding: 12px 20px;
+  margin-top: 20px;
+  width: auto;
+}
+
+  
+
+header h1 {
+  line-height: 60px;
 }
 
 button:hover {
@@ -137,5 +172,44 @@ main section {
   border-radius: 6px;
 }
 
+.login-container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #FFF9D1;
+  border-radius: 10px;
+}
 
+.login-container fieldset {
+  border: none;
+  padding: 0;
+}
+
+.login-container label {
+  text-align: left;
+  display: block;
+  margin: 10px 0 4px;
+}
+
+.botoes-final {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.botoes-final button {
+  display: inline-block;
+  font-weight: bold;
+  border: none;
+  background-color: #F4D03F;
+  color: #333333;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botoes-final button:hover {
+  background-color: #E2BE2D;
+}
 
