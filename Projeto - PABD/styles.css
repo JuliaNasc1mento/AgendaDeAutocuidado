@@ -83,6 +83,7 @@ form {
     gap: 12px;
     margin: 20px auto;
     max-width: 400px;
+    text-align: center;
 }
 
 input, select, textarea {
@@ -102,11 +103,6 @@ button, input[type="submit"] {
     background-color: #F4D03F;  
     color: #333333;
     transition: 0.2s;
-}
-
-button:hover,
-input[type="submit"]:hover {
-    background-color: #E2BE2D;
 }
 
 
@@ -146,11 +142,6 @@ section {
 
 
 
-main {
-    overflow-x: auto;
-    white-space: nowrap;
-    padding-bottom: 15px;
-}
 
 
 main section {
@@ -160,4 +151,17 @@ main section {
     background-color: #FFF9D1;
     padding: 10px;
     border-radius: 6px;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+  white-space: nowrap;
+  padding-bottom: 15px;
+}
+
+section {
+  min-width: 280px;
 }
