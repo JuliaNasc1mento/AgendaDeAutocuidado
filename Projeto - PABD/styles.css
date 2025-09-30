@@ -6,7 +6,6 @@
 }
 
 
-
 header {
     color: #3B3928;
     background-color: #FFF8DC;
@@ -14,6 +13,8 @@ header {
     height: 60px;
     margin: 0;
     padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
 }
   
   
@@ -55,12 +56,6 @@ body {
     min-height: 100vh;
 }
 
-
-header {
-    text-align: center;
-}
-
-
 h1, h2, h3 {
     color: #333333;
     margin-bottom: 15px;
@@ -94,17 +89,6 @@ input, select, textarea {
 }
 
 
-button, input[type="submit"] {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #F4D03F;  
-    color: #333333;
-    transition: 0.2s;
-}
-
 
 a {
     color: #1E3A5F;
@@ -135,33 +119,23 @@ th {
 }
 
 
-section {
-    margin-bottom: 30px;
+
+main {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
 }
-
-
-
-
 
 
 main section {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-    background-color: #FFF9D1;
-    padding: 10px;
-    border-radius: 6px;
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;   
+  margin-right: 20px;
+  background-color: #FFF9D1;
+  padding: 10px;
+  border-radius: 6px;
 }
 
-main {
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  padding: 20px;
-  white-space: nowrap;
-  padding-bottom: 15px;
-}
 
-section {
-  min-width: 280px;
-}
+
