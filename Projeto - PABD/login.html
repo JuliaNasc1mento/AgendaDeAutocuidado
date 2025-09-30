@@ -15,27 +15,42 @@
       <form action="tipoagenda.html" method="post">
         <fieldset>
           <legend>Informações Pessoais</legend>
+
           <label for="nome">Nome:</label>
+<<<<<<< HEAD
           <input type="text" id="nome" name="nome" required>
+=======
+          <input type="text" id="nome" name="nome" required
+                 oninvalid="this.setCustomValidity('Por favor, preencha seu nome.')"
+                 oninput="this.setCustomValidity('')">
+>>>>>>> abca5a004517bfe6c96bf85d339707e507141123
 
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome" name="nome" required>
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required
+                 oninvalid="this.setCustomValidity('Informe um telefone válido.')"
+                 oninput="this.setCustomValidity('')">
 
-    <label for="telefone">Telefone:</label>
-    <input type="tel" id="telefone" name="telefone" required>
+          <label for="data_nasc">Data de Nascimento:</label>
+          <input type="date" id="data_nasc" name="data_nasc" required
+                 oninvalid="this.setCustomValidity('Selecione sua data de nascimento.')"
+                 oninput="this.setCustomValidity('')">
 
-    <label for="data_nasc">Data de Nascimento:</label>
-    <input type="date" id="data_nasc" name="data_nasc" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required
+                 oninvalid="this.setCustomValidity('Digite um email válido.')"
+                 oninput="this.setCustomValidity('')">
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="senha">Senha:</label>
-    <input type="password" id="senha" name="senha" required>
-    <button type="submit">Entrar</button>
-  </fieldset>
-</form>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required
+                 oninvalid="this.setCustomValidity('Crie uma senha.')"
+                 oninput="this.setCustomValidity('')">
+        </fieldset>
+      </form>
+          <div class="botoes-final">
+          <button type="submit" class="botao">Criar Conta</button>
+        </div>
     </section>
   </main>
+
 </body>
 </html>
