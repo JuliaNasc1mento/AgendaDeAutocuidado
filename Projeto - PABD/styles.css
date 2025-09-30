@@ -21,7 +21,6 @@ header {
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #FFF8DC;
     color: #3B3928;
 }
 
@@ -30,7 +29,7 @@ main, section {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #FFF9D1;
+    background-color: #fff3ba;
     border-radius: 10px;
 }
 
